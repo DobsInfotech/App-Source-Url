@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<table id="customers">
+  <tr>
+    <th>Route</th>
+    <th>Method</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>data</td>
+    <td>Get</td>
+    <td><a href="data" style="text-decoration: none; color: black;" target="_blank">For Get App Data</a></td>
+  </tr>
+  <tr>
+    <td>add</td>
+    <td>post</td>
+    <td><a href="add" style="text-decoration: none; color: black;" target="_blank">For Add App data</a></td>
+  </tr>
+  <tr>
+    <td>update/page</td>
+    <td>Get</td>
+    <td><a href="update/page" style="text-decoration: none; color: black;" target="_blank">For show App For Update</a></td>
+  </tr>
+  <tr>
+    <td>delete</td>
+    <td>get</td>
+    <td><a href="delete" style="text-decoration: none; color: black;" target="_blank">For show App For delete</a></td>
+  </tr>
+</table>
+
+</body>
+</html>
+<!DOCTYPE html>
